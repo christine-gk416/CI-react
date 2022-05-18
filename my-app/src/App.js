@@ -3,6 +3,7 @@ import './App.css';
 import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps'
 import StatefulGreeting from './components/StatefulGreeting'
 import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback'
+import StatefulGreetingWithCallbackPrevState from './components/StatefulGreetingWithCallbackPrevState'
 
 
 function App() {
@@ -24,7 +25,19 @@ function App() {
             name = "Bob" / >
             */
 
-        } < StatefulGreetingWithCallback / >
+        }
+
+
+        {
+            /*
+                        <
+                        StatefulGreetingWithCallback / >
+                */
+        }
+
+        <
+        StatefulGreetingWithCallbackPrevState / >
+
         <
         /
         div >
