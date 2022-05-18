@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const FunctionalGreetingWithProps = (props) => {
     console.log(props);
     return <
