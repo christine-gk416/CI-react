@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps'
 import StatefulGreeting from './components/StatefulGreeting'
+import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback'
 
 
 function App() {
@@ -17,10 +18,13 @@ function App() {
             age = '32' / >*/
         }
 
-        <
-        StatefulGreeting greeting = "I'm a stateful class component"
-        name = "Bob" / >
+        {
+            /* <
+            StatefulGreeting greeting = "I'm a stateful class component"
+            name = "Bob" / >
+            */
 
+        } < StatefulGreetingWithCallback / >
         <
         /
         div >
