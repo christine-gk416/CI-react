@@ -6,11 +6,17 @@ import StatefulGreeting from './components/StatefulGreeting'
 
 function App() {
     return ( <
-        div className = "App" >
-        <
-        FunctionalGreetingWithProps greeting = 'Nice to meet you!'
-        name = 'Mike'
-        age = '32' / >
+        div className = "App" > {
+            /* commented out code in react */
+        }
+
+        {
+            /*<
+                        FunctionalGreetingWithProps greeting = 'Nice to meet you!'
+                        name = 'Mike'
+            age = '32' / >*/
+        }
+
         <
         StatefulGreeting greeting = "I'm a stateful class component"
         name = "Bob" / >

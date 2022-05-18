@@ -11,6 +11,15 @@ class StatefulGreeting extends Component {
             buttonText: 'Exit',
         };
     }
+
+    handleClick() {
+        this.setState({
+            introduction: 'Goodbye',
+            buttonText: 'Enter',
+
+        });
+        console.log(this.state.introduction);
+    }
     render() {
         return ( <
             div >
@@ -22,7 +31,9 @@ class StatefulGreeting extends Component {
             }, {
                 this.props.greeting
             } < /h1> <
-            button > {
+            button onClick = {
+                () => this.handleClick()
+            } > {
                 this.state.buttonText
             } < /button> < /
             div > )
